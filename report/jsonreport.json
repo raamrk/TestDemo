@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login scenarios for webpages",
+        "description": "",
+        "id": "login-feature-for-webpage;login-scenarios-for-webpages",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61018372400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User has navigated to Login page correctly",
+            "match": {
+              "location": "LoginParameterization.user_has_navigated_to_Login_page_correctly()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208569400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters the valid username \"Admin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 32
+                },
+                {
+                  "val": "admin123",
+                  "offset": 53
+                }
+              ],
+              "location": "LoginParameterization.user_enters_the_valid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14033216400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on the login button",
+            "match": {
+              "location": "LoginParameterization.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59437000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User will be able to see the welcome page",
+            "match": {
+              "location": "LoginParameterization.user_will_be_able_to_see_the_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature for webpage",
+    "description": "",
+    "id": "login-feature-for-webpage",
+    "keyword": "Feature",
+    "uri": "featureFiles/LoginParameterization.feature"
+  }
+]
